@@ -1,6 +1,5 @@
 
 let form = document.querySelector('form')
-
 form.addEventListener('submit', function(e) {
     e.preventDefault();
     var Value = e.target.querySelector('input').value
